@@ -68,9 +68,51 @@ p {
   background-color: brown;
 }
 
-img {
+#menu {
   margin: auto;
   display: block;
   margin-top: 0px;
-  height: 900px;
+  height: 895px;
+}
+
+form {
+  background-color: white;
+  display: block;
+  margin: auto;
+  width: 30%;
+  align-content: center;
+  border-radius: 10px;
+  height: 300px;
+  margin-top: 200px;
+}
+
+label {
+  display: block;
+  width: 30%;
+  margin: 50px 5px;
+  margin-left: 140px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+input {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+}
+
+#contact {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
 }

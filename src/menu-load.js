@@ -4,6 +4,7 @@ function loadMenu() {
     clearContent();
     const div = document.querySelector(".tabContent");
     const menu = document.createElement("img");
+    menu.id = 'menu';
     menu.src = '../images/menu';
     div.appendChild(menu);
     const ul = document.querySelector("ul");
